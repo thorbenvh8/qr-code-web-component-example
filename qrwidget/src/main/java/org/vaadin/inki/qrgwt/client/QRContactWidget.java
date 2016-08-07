@@ -44,6 +44,7 @@ public class QRContactWidget extends Widget {
 			htmlImport.setAttribute("href", GWT.getModuleBaseForStaticFiles()
 					+ "components/qr-code/qr-code.html");
 			head.appendChild(htmlImport);
+			injected = true;
 		}
 	}
 
